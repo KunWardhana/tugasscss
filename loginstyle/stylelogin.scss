@@ -1,0 +1,120 @@
+$color-primary: teal;
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  margin-top: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30%;
+  background-color: bisque;
+}
+
+form{
+    border: 2px solid $primary-color;
+}
+
+.title{
+    border: {
+        bottom: 4px solid black;
+      }
+      text-align: center;
+      color: $color-primary;
+      padding: 20px;
+      margin-bottom: 20px;
+      font-size: 40px;
+}
+
+.container{
+    padding: 90px 80px 90px 80px;
+    background-color: burlywood;
+}
+
+label{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 12px 10px; 
+}
+
+input[type=text], input[type=password]{
+    width: 100%;   
+    margin: 8px 8px 30px 8px;  
+    padding: 12px 10px 30px;   
+    display: inline-block;   
+    border: 2px solid $primary-color;   
+    box-sizing: border-box;   
+}
+
+button{
+    background-color: #4CAF50;   
+    width: 30%;  
+     color: orange;   
+     padding: 10px; 
+    margin-left: 33%;
+     border: none;   
+     cursor: pointer;   
+    &:hover {
+        color:$color-primary;
+    }
+}
+
+
+@media  screen and (min-width: 1000px)
+{
+    body {
+        font: 100% $font-stack;
+        color: $primary-color;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: grey;
+      }
+
+      form{
+        border: 2px solid $primary-color;
+    }
+    
+    .title{
+        border: {
+            bottom: 4px solid black;
+          }
+          text-align: center;
+          color: $color-primary;
+        //   padding: 20px;
+          margin: 20px;
+          font-size: 40px;
+    }
+    
+    .container{
+        padding: 50px;
+        background-color: burlywood;
+    }
+    
+    label{
+        padding: 12px 10px; 
+    }
+    
+    input[type=text], input[type=password]{
+        width: 100%;   
+        margin: 8px;  
+        padding: 12px 10px;   
+        display: inline-block;   
+        border: 2px solid $primary-color;   
+        box-sizing: border-box;   
+    }
+    
+    button{
+        background-color: #4CAF50;   
+        width: 30%;  
+         color: orange;   
+         padding: 10px; 
+        margin-left: 33%;
+         border: none;   
+         cursor: pointer;   
+        &:hover {
+            color:$color-primary;
+        }
+    }
+}
