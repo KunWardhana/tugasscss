@@ -6,19 +6,25 @@
     .header{
         .title{
             height: 100px;
-            
+
+            .title_left{
+                position: absolute;
+                transform: translate(0%, +50%);
+            }
+
             .icon{
-                height: 20px;
-                width: 20px;
+                height: 40px;
+                width: 40px;
                 padding: {
                     right: 12px;
                 }
-                
+                transform: translate(0%, +20%);
             }
     
             .titlePage{
-                color: red;
-                
+                // color: red;
+                font-size: 25px;
+                font-weight: bold;
             }
     
             .userImage{
