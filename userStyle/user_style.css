@@ -79,10 +79,6 @@
   color: white !important;
 }
 
-.calender .days li .noActive {
-  opacity: 0.5;
-}
-
 @media screen and (max-width: 720px) {
   .calender .weekdays li, .calender .days li {
     width: 13.1%;
@@ -102,42 +98,5 @@
   .calender .weekdays li, .calender .days li {
     width: 12.2%;
   }
-}
-
-.classes .OneClass {
-  border-style: solid;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.classes .OneClass .classBtn {
-  float: right;
-  margin-right: 10px;
-  border: none;
-  font-weight: bold;
-  background: transparent;
-}
-
-.bg-lightpink {
-  background: lightpink;
-}
-
-.bg-lightgreen {
-  background: lightgreen;
-}
-
-.bg-lightskyblue {
-  background: lightskyblue;
-}
-
-.bg-lightseagreen {
-  background: lightseagreen;
-}
-
-.bg-lightsalmon {
-  background: lightsalmon;
 }
 /*# sourceMappingURL=user_style.css.map */
