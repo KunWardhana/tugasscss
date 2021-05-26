@@ -1,4 +1,6 @@
 $color-primary: teal;
+$color-bg: gainsboro;
+$cont-color: wheat;
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -9,7 +11,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 30%;
-  background-color: bisque;
+  background-color: $color-bg;
 }
 
 form{
@@ -21,7 +23,7 @@ form{
         bottom: 4px solid black;
       }
       text-align: center;
-      color: $color-primary;
+      color: $primary-color;
       padding: 20px;
       margin-bottom: 20px;
       font-size: 40px;
@@ -29,7 +31,7 @@ form{
 
 .container{
     padding: 90px 80px 90px 80px;
-    background-color: burlywood;
+    background-color: $cont-color;
 }
 
 label{
@@ -69,7 +71,7 @@ button{
         margin-top: 10%;
         margin-left: 25%;
         margin-right: 25%;
-        background-color: grey;
+        background-color: $color-bg;
       }
 
       form{
@@ -89,7 +91,7 @@ button{
     
     .container{
         padding: 50px;
-        background-color: burlywood;
+        background-color: $cont-color;
     }
     
     label{
