@@ -1,0 +1,38 @@
+.container_admin {
+  margin-top: 10px;
+  background-color: grey;
+  padding: 12px 12px 12px 12px;
+}
+
+.container_admin .title_span {
+  background-color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.container_admin .admin_table {
+  margin-top: 10px;
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+}
+
+.container_admin .admin_table tr th, .container_admin .admin_table td {
+  border: solid grey;
+  padding-left: 5px;
+}
+
+.container_admin .admin_table tr:active {
+  background: lightgrey;
+}
+
+.container_admin .class_btn_list {
+  margin-top: 5px;
+}
+
+.logout_btn {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=admin_home_style.css.map */
