@@ -104,6 +104,17 @@
   }
 }
 
+.logout_btn {
+  margin-top: 10px;
+  border: solid black 1px;
+  background-color: white;
+}
+
+.logout_btn:hover {
+  color: white;
+  background-color: black;
+}
+
 .classes .OneClass {
   border-style: solid;
   padding-top: 10px;
@@ -125,19 +136,39 @@
   background: lightpink;
 }
 
+.bg-lightpink:hover {
+  background: lightgoldenrodyellow;
+}
+
 .bg-lightgreen {
   background: lightgreen;
+}
+
+.bg-lightgreen:hover {
+  background: lightgoldenrodyellow;
 }
 
 .bg-lightskyblue {
   background: lightskyblue;
 }
 
+.bg-lightskyblue:hover {
+  background: lightgoldenrodyellow;
+}
+
 .bg-lightseagreen {
   background: lightseagreen;
 }
 
+.bg-lightseagreen:hover {
+  background: lightgoldenrodyellow;
+}
+
 .bg-lightsalmon {
   background: lightsalmon;
+}
+
+.bg-lightsalmon:hover {
+  background: lightgoldenrodyellow;
 }
 /*# sourceMappingURL=user_style.css.map */

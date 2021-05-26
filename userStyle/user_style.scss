@@ -1,5 +1,18 @@
 @import "calender";
 
+.logout_btn{
+    
+   margin-top: 10px;
+   border: solid black 1px;
+   background-color: white;
+
+   &:hover{
+       color: white;
+       background-color: black;
+   }
+
+}
+
 .classes{
     .OneClass{
         border: {
@@ -29,5 +42,8 @@ $colors:  lightpink lightgreen lightskyblue lightseagreen lightsalmon;
 @each $color in $colors {
     .bg-#{$color}{
         background: $color;
+        &:hover{
+            background: lightgoldenrodyellow;
+        }
     }
 }
