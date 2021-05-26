@@ -1,0 +1,33 @@
+@import "calender";
+
+.classes{
+    .OneClass{
+        border: {
+            style: solid;
+        };
+        
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 5px;
+
+       margin-top: 5px;
+       margin-bottom: 5px;
+       
+        .classBtn{
+            float: right;
+            margin-right: 10px;
+            border: none;
+            font-weight: bold;
+            background: transparent;
+        }
+
+    }
+}
+
+$colors:  lightpink lightgreen lightskyblue lightseagreen lightsalmon;
+
+@each $color in $colors {
+    .bg-#{$color}{
+        background: $color;
+    }
+}
