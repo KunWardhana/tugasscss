@@ -1,0 +1,63 @@
+.mobilebody h3 {
+  text-decoration: underline;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.mobilebody .materialname {
+  margin-bottom: 5px;
+  margin-left: 35px;
+  margin-right: 10px;
+}
+
+.mobilebody .materialname .materialtitle {
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.mobilebody .materialname .materialcontent {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  text-align: justify;
+  font-size: 14px;
+  background-color: lightgrey;
+}
+
+.mobilebody .materialname .materialcontent button {
+  background-color: lightblue;
+  padding: 10px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.mobilebody .bg-lightpink {
+  background: lightpink;
+}
+
+.mobilebody .bg-lightgreen {
+  background: lightgreen;
+}
+
+.mobilebody .bg-lightskyblue {
+  background: lightskyblue;
+}
+
+.mobilebody .bg-lightsalmon {
+  background: lightsalmon;
+}
+
+.mobilebody .bg-lightgoldenrodyellow {
+  background: lightgoldenrodyellow;
+}
+/*# sourceMappingURL=detailstyle.css.map */

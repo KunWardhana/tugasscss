@@ -13,6 +13,7 @@
     text-align: justify;
   }
   article .imagebox {
+    border: 2px solid teal;
     height: 100%;
     width: 100%;
   }
