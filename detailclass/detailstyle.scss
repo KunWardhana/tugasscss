@@ -1,0 +1,52 @@
+.mobilebody {
+  h3 {
+    text-decoration: underline;
+    margin: 10px;
+    padding-top: 20px;
+  }
+
+  .materialname {
+    .materialtitle {
+      border: {
+        style: solid;
+      }
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+    }
+
+    margin-bottom: 5px;
+    margin-left: 35px;
+    margin-right: 10px;
+
+    .materialcontent {
+      border: {
+        right: 2px solid black;
+        left: 2px solid black;
+        bottom: 2px solid black;
+      }
+      width: fit-content;
+      height: fit-content;
+      padding: 10px;
+      text-align: justify;
+      font-size: 14px;
+      background-color: lightgrey;
+
+      button {
+        background-color: lightblue;
+        padding: 10px;
+        margin-left: 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  $colors: lightpink lightgreen lightskyblue lightsalmon lightgoldenrodyellow;
+
+  @each $color in $colors {
+    .bg-#{$color} {
+      background: $color;
+    }
+  }
+}
