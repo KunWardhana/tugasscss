@@ -7,8 +7,8 @@
 
   <body>
      
-    <form action="/userHomePage.html">
-        
+    
+    <div class="container1">
       <div class="container">
         <div class="title">Online Class Application</div>
         <label>Username : </label>
@@ -16,22 +16,19 @@
           type="text"
           placeholder="Enter Username"
           name="username"
-          required
         />
         <label>Password : </label>
         <input
           type="password"
           placeholder="Enter Password"
           name="password"
-          required
         />
-        <button type="submit">Login</button>
+        <button onclick="location.href='userHomePage.html'" >Login</button>
 
       </div>
       <div class="loginasadmin" onclick="location.href='admin_home.html'">
         Login As Admin
       </div>
-    </form>
-
+    </div>
   </body>
 </html>

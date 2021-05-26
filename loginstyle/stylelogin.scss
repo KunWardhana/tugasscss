@@ -14,7 +14,7 @@ body {
   background-color: $color-bg;
 }
 
-form{
+.container1{
     border: 2px solid $primary-color;
     .loginasadmin{
         text-align: center;
@@ -23,8 +23,12 @@ form{
         padding: 10px;
         border: {
             top: 2px solid black;
+            
         }
-    }
+   
+}
+
+
 }
 
 .title{
