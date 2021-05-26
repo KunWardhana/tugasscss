@@ -68,6 +68,10 @@
     color: white !important
     }
 
+    .days li .noActive {
+        opacity: 0.5;
+    }
+
     /* Add media queries for smaller screens */
     @media screen and (max-width:720px) {
     .weekdays li, .days li {width: 13.1%;}
